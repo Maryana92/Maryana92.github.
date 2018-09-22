@@ -1,0 +1,400 @@
+* {
+    font-family: "Adobe 繁黑體 Std B", "DIN Alternate Bold", "for the love of hate";
+    position: relative;
+    /*   border: 1px solid #000; */
+    color: #455046;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
+
+h1, h5 {
+    /*vertical-align: middle;*/
+    color: #FFF;
+    width: 100%;
+
+}
+
+
+.header {
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #4E4547;
+
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    bottom: -9px;
+    width: 100%;
+    height: 5px;
+    background-color: #4E4547;
+}
+
+.big-title {
+    display:  flex;
+    flex-flow:  column;
+    justify-content:  center;
+
+}
+
+.info {
+    background-color: #82C4A8;
+    text-align: center;
+}
+.avatar {
+    border: 5px solid #82C4A8;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.cont {
+    margin-top: 70px;
+}
+
+.info-content {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.info-block {
+    padding: 8px 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.icon {
+    display: inline-block;
+    padding-top: 6px;
+    width: 30px;
+    height: 30px;
+    background-color: #455046;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.icon-mini {
+    display: inline-block;
+    padding-top: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: #455046;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.fa {
+    color: white;
+
+}
+
+.info-right {
+    display: inline-block;
+    text-align: left;
+}
+
+.info-top {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.info-bottom {
+    font-size: 16px;
+}
+
+.info-title {
+    margin-bottom: 10px;
+
+    width: 100%;
+    height: 30px;
+    /*text-align: left;*/
+}
+
+.info-title > div {
+    /*position: absolute;*/
+    /*right: 0;*/
+    width:100%;
+    padding: 2px 5px;
+    border-bottom: 3px solid;
+    /*text-align: left;*/
+}
+
+.content {
+    padding: 10px 15px;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 15px;
+
+    padding: 2px 8px;
+    border: 2px solid #455046;
+}
+
+.content-block {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.inform {
+    margin-top: 30px;
+}
+
+.profile-top {
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgba(78, 69, 71, 0.1);
+    margin: auto;
+    overflow: hidden;
+}
+
+.square1, .square2, .square3, .square4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #82C4A8;
+}
+
+
+
+.center {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+.word {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    color: #82C4A8;
+}
+
+#circle1 > .square1,
+#circle1 > .square2,
+#circle1 > .square3,
+#circle1 > .square4 {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+#circle2 > .square1,
+#circle2 > .square2,
+#circle2 > .square3 {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+#circle3 > .square1,
+#circle3 > .square2,
+#circle3 > .square3,
+#circle3 > .square4 {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+#circle4 > .square1,
+#circle4 > .square2,
+#circle4 > .square3,
+#circle4 > .square4 {
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+
+
+.pro-block {
+    padding: 1px 5px;
+}
+
+.pro-main, .pro-sub {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pro-main {
+    font-size: 14px;
+    width: 45%;
+}
+
+.pro-sub {
+    width: 50%;
+    height: 10px;
+    background-color: rgba(78, 69, 71, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.pro-sub > div {
+    width: 0;
+    height: 10px;
+    border-radius: 7px;
+    background-color: #82C4A8;
+}
+
+#pro-1,
+#pro-2,
+#pro-3,
+#pro-4,
+#pro-5,
+#pro-6,
+#pro-7,
+#pro-8,
+#pro-9,
+#pro-10 {
+    transition-property: width;
+    transition-duration: 3s;
+    width: 0%;
+}
+
+.edu-block {
+    padding: 5px;
+}
+
+.year, .dot, .edu-right {
+    display: inline-block;
+}
+
+.year {
+    padding: 1px 5px;
+    width: 40px;
+    height: 23px;
+    background-color: #85C6A8;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.dot {
+    padding: 8px 10px;
+}
+
+.dot-dot {
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #4E4547;
+}
+
+.line {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 3px;
+    height: 70px;
+    background-color: #85C6A8;
+    z-index: -1;
+}
+
+.school {
+    color: #85C6A8;
+}
+
+.language-left, .language-right {
+    display: inline-block;
+}
+
+.language-left {
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.language-name {
+    height: 24px;
+}
+
+.language-right {
+    width: 220px;
+    height: 85px;
+    border-left: 2px solid #455046;
+    border-bottom: 2px solid #455046;
+}
+
+.gray1, .gray2 {
+    position: absolute;
+    width: 73px;
+    height: 85px;
+    background-color: rgba(78, 69, 71, 0.08);
+}
+
+.gray2 {
+    left: 144px;
+}
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 0px;
+    height: 8px;
+    margin: 16px 0;
+    background-color: #82C4A8;
+    transition-property: width;
+    transition-duration: 3s;
+}
+
+.language-standard {
+    padding: 5px 0;
+}
+
+.standard1, .standard2, .standard3 {
+    position: absolute;
+    font-size: 14px;
+    color: #85C6A8;
+    transform: translate(-50%, 0);
+}
+
+.standard1 {
+    left: 35px;
+}
+
+.standard2 {
+    left: 108px;
+}
+
+.standard3 {
+    left: 180px;
+}
+
